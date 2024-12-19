@@ -8,6 +8,64 @@
   <link rel="stylesheet" href="/styles/index.css">
 </head>
 <body>
-  
+  <div id="app">
+    <header>
+      <p>&larr;Voltar</p>
+
+      <h1>Compras da semana</h1>
+    </header>
+
+    <main>
+      <form action="">
+        <input type="text" placeholder="Adicione um novo item">
+        <button>Adicionar item</button>
+      </form>
+
+      <ul>
+        <li>
+          <input type="checkbox" name="checkbox">
+          <input type="text" placeholder="Pão de forma">
+
+          <img src="assets/icons/delete-02-stroke-rounded.svg" alt="Ícone de lixeira">
+        </li>
+
+        <li>
+          <input type="checkbox" name="checkbox">
+          <input type="text" placeholder="Café preto">
+
+          <img src="assets/icons/delete-02-stroke-rounded.svg" alt="Ícone de lixeira">
+        </li>
+
+        <li>
+          <input type="checkbox" name="checkbox">
+          <input type="text" placeholder="Suco de laranja">
+
+          <img src="assets/icons/delete-02-stroke-rounded.svg" alt="Ícone de lixeira">
+        </li>
+
+        <li>
+          <input type="checkbox" name="checkbox">
+          <input type="text" placeholder="Bolacha">
+
+          <img src="assets/icons/delete-02-stroke-rounded.svg" alt="Ícone de lixeira">
+        </li>
+      </ul>
+     
+    </main>
+
+    <footer>
+      <div id="alert">
+        <img src="assets/icons/alert-circle-stroke-rounded.svg" alt="Ícone com sinal de exclamação simbolizando estado de alerta">
+
+        <p>
+          O item foi removido da lista
+        </p>
+
+        <img src="assets/icons/cancel-01-stroke-rounded.svg" alt="Ícone com a letra X para fechar o alerta">
+      </div>
+    </footer>
+
+
+  </div>
 </body>
 </html>
